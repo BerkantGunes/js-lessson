@@ -28,7 +28,7 @@ const HomePage = () => {
     <>
         <Header />
 
-      <div className="home px-6 flex md:flex-row flex-col justify-between gap-10 md:pb-0 pb-20">
+      <div className="home px-6 flex md:flex-row flex-col justify-between gap-10 md:pb-0 pb-20 h-screen">
         <div className="categories overflow-auto max-h-[calc(85vh_-_10px)] md:pb-6">
           <Categories categories={categories} setCategories={setCategories} />
         </div>
